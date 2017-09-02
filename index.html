@@ -30,6 +30,16 @@
         <div data-role="main" class="ui-content">
             <h3>Welcome To Our Mobile Site</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque, aut deserunt dolorum eligendi facere id impedit ipsa iusto minima mollitia odio optio pariatur qui quibusdam similique ullam voluptates. Atque doloribus esse expedita fugiat itaque magnam maxime placeat provident repudiandae.</p>
+            <div data-role="collapsible">
+                <h1>Location & Phone</h1>
+                <ul data-role="listview">
+                    <li data-role="list-divider">Phone: 555-234-6344</li>
+                    <li data-role="list-divider">Location: 23 Main st. Boston MA</li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <div data-role="footer" style="text-align: center">
@@ -102,6 +112,92 @@
                     </li>
                 </ul>
             </div>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <h3>Services</h3>
+            <ul data-role="listview">
+                <li>
+                    <img src="img/internet.png" alt="Internet">
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae cumque esse fuga temporibus velit?</p>
+                </li>
+                <li>
+                    <img src="img/tablet.png" alt="Tablet">
+                    <h2>Mobile Apps</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae cumque esse fuga temporibus velit?</p>
+                </li>
+                <li>
+                    <img src="img/shield.png" alt="Security">
+                    <h2>Internet Security</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae cumque esse fuga temporibus velit?</p>
+                </li>
+                <li>
+                    <img src="img/pencil.png" alt="Contact Creation">
+                    <h2>Contact Creation</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae cumque esse fuga temporibus velit?</p>
+                </li>
+            </ul>
+        </div>
+
+        <div data-role="footer" style="text-align: center">
+            <h3>Mock Services &copy; 2017</h3>
+            <a href="" class="ui-btn ui-icon-plus ui-btn-icon-left">
+                Facebook
+            </a>
+            <a href="" class="ui-btn ui-icon-plus ui-btn-icon-left">
+                Twitter
+            </a>
+            <a href="" class="ui-btn ui-icon-plus ui-btn-icon-left">
+                Instagram
+            </a>
+        </div>
+    </div>
+
+    <!-- CONTACT-->
+    <div data-role="page" id="contact">
+        <div data-role="header">
+            <h1>Contact</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#home" data-transition="slide" data-icon="home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" data-transition="slide" data-icon="info">About</a>
+                    </li>
+                    <li>
+                        <a href="#services" data-transition="slide" data-icon="gear">Sevices</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <h3>Contact Us</h3>
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+
+        <div data-role="footer" style="text-align: center">
+            <h3>Mock Services &copy; 2017</h3>
+            <a href="" class="ui-btn ui-icon-plus ui-btn-icon-left">
+                Facebook
+            </a>
+            <a href="" class="ui-btn ui-icon-plus ui-btn-icon-left">
+                Twitter
+            </a>
+            <a href="" class="ui-btn ui-icon-plus ui-btn-icon-left">
+                Instagram
+            </a>
         </div>
     </div>
 </body>
